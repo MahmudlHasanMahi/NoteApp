@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap");
+.header-wrapper {
+  width: 100%;
+}
+.takeNote {
+ padding: 12px;
+  max-width: 525px;
+  min-height: 43px;
+  outline: none;
+  padding-left: 10px;
+  font-family: "Oxygen";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #514f4f;
+  background-color: #0000ff00;
+  color: black;
+  resize: none;
+  border: none;
+  overflow: hidden;
+
+}
+.takenote, .title:empty:before {
+  content: attr(placeholder);
+  color: rgba(0, 0, 0, 0.535);
+
+}
+.takenote,.title:empty:before {
+  content: attr(placeholder);
+  color: rgba(0, 0, 0, 0.535);
+}
+.note-wrapper {
+  background: #cde990;
+  border: 3px solid #ffffe8;
+  box-shadow: 0px 1px 11px rgba(0, 0, 0, 0.83);
+  border-radius: 13px;
+  max-width: 532px;
+  margin-left: 246px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  margin-top: 10px;
+  max-width: 525px;
+  min-height: 43px;
+  color: #514f4f;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  padding-top: 6px;
+  margin-bottom: 5px;
+  font-family: "Oxygen";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  background-color: #514f4f00;
+  color: black;
+  outline: none;
+  resize: none;
+  overflow: hidden;
+}
+
+.close-wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #0000ff00;
+}
+.close {
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 15px;
+  font-family: "Oxygen";
+  color: #454545;
+  width: 55px;
+  padding: 10px 10px 5px 0;
+  text-align: center;
+  padding: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 5px 5px 0;
+  transition-duration: 400ms;
+  background-color: #0000ff00;
+}
+.close:hover {
+  background-color: #a9cb7380;
+}
